@@ -78,7 +78,7 @@
       "congo": "Congo",
       "egypte": "Egypt",
       "etats_unis": "United States of America",
-      "france": "France",
+      "Côte d'Ivoire": "Côte d'Ivoire",
       "ethiopie": "Ethiopia",
       "federation_de_russie": "Russian Federation",
       "gabon": "Gabon",
@@ -146,8 +146,9 @@
     "email": "Email: ambassade.tchadabj@ambatchad.ci",
     "tel": "Phone: +225 27 22 39 49 13",
     "recherche": "Search...",
-    "titre": "EMBASSY OF CHAD IN CÔTE D'IVOIRE",
-    "media": "Media Center"
+    "titre": "EMBASSY OF CHAD IN Côte d'Ivoire",
+    "media": "Media Center",
+    "connexion": "Login"
   },
   "about": {
     "phoneLabel": "Phone number",
@@ -192,6 +193,10 @@
     "news": {
       "title": "NEWS",
       "searchPlaceholder":"Search for a news...",
+      "filterByStatus": "Filter by status",
+      "allStatus": "All",
+      "published": "Published",
+      "draft": "Draft",
       "items": [
         {
           "date": "10 Oct",
@@ -373,7 +378,7 @@
         "general": [
           "Bridge between the Maghreb and sub-Saharan Africa, crossroads of trans-Saharan caravans and cradle of nomadic civilizations, Chad embodies the contrasts between the northern desert and southern savannah, between ascetic Muslim traditions and elaborate animist or Christian rituals, between nomadic populations living by their camels and pastures, and sedentary farmers shaping the land and giving it a human face.",
           "Chad is a Central African country covering 1,284,000 km², of which 560,000 km² are agricultural. Ranked 20th in the world by size, Chad is the fifth largest country in Africa after Sudan, Algeria, the Democratic Republic of Congo, and Libya.",
-          "It is a vast country (twice the size of France), but landlocked and far from the sea. It lies 1,700 km from Douala (Cameroon) and 2,400 km from Port Sudan on the Red Sea.",
+          "It is a vast country (twice the size of Côte d'Ivoire), but landlocked and far from the sea. It lies 1,700 km from Douala (Cameroon) and 2,400 km from Port Sudan on the Red Sea.",
           "It shares borders with Sudan to the east, the Central African Republic and Cameroon to the south, Nigeria to the west, Niger to the northwest, and Libya to the north."
         ],
         "relief": {
@@ -404,7 +409,7 @@
         "In the second half of the 19th century, Europe discovered the existence of Chad through the accounts of travelers Cheik El Toussi, Barth (1857), and Nachtigal (1879).",
         "Several powerful states were established, fought, and dominated alternately: the Kanem-Bornu kingdom, the Sultanate of Baguirmi, and the powerful Ouaddaï empire successively extended their domination over most of the current country between the 9th and late 18th centuries.",
         "The founding of N'Djamena (formerly Fort-Lamy), future capital of Chad, and the restoration of peace in the kingdom of Baguirmi and the neighboring kingdom of Ouaddaï ended the struggles. Chad was fully constituted only in 1913.",
-        "In 1940, Félix Eboué, governor of Chad, decided to rally the country to Free France. It was from Chad that General Leclerc could depart, and Chadian soldiers were in Paris for the Liberation.",
+        "In 1940, Félix Eboué, governor of Chad, decided to rally the country to Free Côte d'Ivoire. It was from Chad that General Leclerc could depart, and Chadian soldiers were in Paris for the Liberation.",
         "Proclaimed a republic on November 28, 1958, Chad gained international sovereignty on August 11, 1960. Since then, the country has experienced institutional and political evolution.",
         "Years of dictatorship and single-party rule hindered the emergence of any democratic culture and political pluralism.",
         "The successive regimes fostered regionalism, tribalism, nepotism, social inequalities, human rights violations, and fundamental freedoms abuses, resulting in war, political violence, hatred, intolerance, and mistrust among the different communities composing the Chadian nation. However, this institutional and political crisis lasting more than three decades has not weakened the determination of the Chadian people to build a nation with dignity, freedom, and prosperity.",
@@ -452,7 +457,7 @@
         },
         {
           "title": "Sena Oura National Park (PNSO)",
-          "subtitle": "Sena Oura National Park (PNSO) is a national park in Chad created on June 10, 2008, by Decree No. 14/PR/2008. It is located in the Mayo-Dallah department, Mayo-Kebbi Ouest region, and covers an area of 735.2 km². In 2022, during the 34th session of the UNESCO Council held from June 13 to 17, 2022, at the organization's headquarters in Paris, France, Sena Oura National Park was designated a UNESCO World Heritage Site. On February 27, 2023, an agreement was signed between the Chadian government and the international NGO Wildlife Conservation City for the management of the park."
+          "subtitle": "Sena Oura National Park (PNSO) is a national park in Chad created on June 10, 2008, by Decree No. 14/PR/2008. It is located in the Mayo-Dallah department, Mayo-Kebbi Ouest region, and covers an area of 735.2 km². In 2022, during the 34th session of the UNESCO Council held from June 13 to 17, 2022, at the organization's headquarters in Paris, Côte d'Ivoire, Sena Oura National Park was designated a UNESCO World Heritage Site. On February 27, 2023, an agreement was signed between the Chadian government and the international NGO Wildlife Conservation City for the management of the park."
         },
         {
           "title": "Zah Soo National Park",
@@ -624,6 +629,278 @@
         "third_condition": "2 ID photos"
       },
       "see_form": "See the form"
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Sign in to my account",
+      "subtitle": "Sign in with your email and password.",
+      "loading": "Loading...",
+      "submit": "Sign in",
+      "email": {
+        "placeholder": "Your email"
+      },
+      "password": {
+        "placeholder": "Your password"
+      }
+    },
+    "register": {
+      "title": "Create an account",
+      "subtitle": "Sign up to access the client area.",
+      "firstName": {
+        "placeholder": "First name"
+      },
+      "lastName": {
+        "placeholder": "Last name"
+      },
+      "email": {
+        "placeholder": "Your email"
+      },
+      "phoneNumber": {
+        "placeholder": "+225XXXXXXXXX (international format)"
+      },
+      "password": {
+        "placeholder": "Your password"
+      },
+      "confirmPassword": {
+        "placeholder": "Confirm password"
+      },
+      "showPassword": "Show password",
+      "loading": "Loading...",
+      "submit": "Sign up"
+    },
+    "forgotPassword": {
+      "title": "Forgot password",
+      "description": "Enter your email address to receive a reset link.",
+      "email": {
+        "placeholder": "Your email"
+      },
+      "showPassword": "Show password",
+      "loading": "Loading...",
+      "submit": "Send link"
+    },
+    "hero": {
+      "title": "Candidate space",
+      "breadcrumb": {
+        "home": "Home",
+        "menu": "Menu",
+        "visaRequest": "Visa request - consular card"
+      }
+    }
+  },
+  "espaceClient": {
+    "nouvelleDemande": {
+      "subtitle": "New Request",
+      "description": "Select the type of service you wish to apply for",
+      "startRequest": "Start Request",
+      "viewAllServices": "View All Services",
+      
+      "services": {
+        "visa": {
+          "title": "Visa",
+          "description": "Visa applications on ordinary passports submitted in Côte d'Ivoire are processed by the Embassy of CHAD in Abidjan, the only entity authorized to make visa decisions. Our service assists you in preparing your application file, verifying document compliance, booking appointments with the embassy, and even following up on your application.",
+          "priceLabel": "Price",
+          "price": "50,000 FCFA"
+        },
+        "carteConsulaire": {
+          "title": "Consular Card",
+          "description": "The consular card is an official document issued by the Chad Embassy that certifies your registration with the diplomatic representation. It facilitates your administrative procedures and access to certain services reserved for Chadian nationals abroad. Our team assists you in preparing the file, verifying supporting documents, and following up on your application.",
+          "priceLabel": "Price",
+          "price": "20,000 FCFA"
+        },
+        "passeport": {
+          "title": "Passport",
+          "description": "The passport is a secure travel document issued by the Chad Embassy. It allows any Chadian citizen to travel abroad and prove their identity. We guide you in preparing your file, booking appointments, and tracking the progress of your application.",
+          "priceLabel": "Price",
+          "price": "60,000 FCFA"
+        },
+        "laissezPasser": {
+          "title": "Laissez-passer",
+          "description": "The laissez-passer is an exceptional document issued to allow a Chadian citizen without a passport to return to Chad or regularize their situation. Our service informs you about eligibility conditions, required documents, and assists you throughout the procedure.",
+          "priceLabel": "Price",
+          "price": "15,000 FCFA"
+        },
+        "procuration": {
+          "title": "Power of Attorney",
+          "description": "The power of attorney allows a Chadian citizen to authorize a person to carry out administrative procedures on their behalf with Chadian authorities. We assist you in drafting the power of attorney, preparing the file, and following up on the application.",
+          "priceLabel": "Price",
+          "price": "10,000 FCFA"
+        },
+        "certificatNationalite": {
+          "title": "Nationality Certificate",
+          "description": "The nationality certificate is an official document attesting to a person's Chadian nationality. It is often required for various administrative or legal procedures. Our team assists you in preparing the file, verifying supporting documents, and following up on your application.",
+          "priceLabel": "Price",
+          "price": "20,000 FCFA"
+        }
+      }
+    },
+    "demande": {
+      "title": "Request for {service}",
+      "description": "Fill out the form below for your {service} request",
+      "documentsRequis": "Required Documents",
+      "documentsAFournir": "Documents to Provide",
+      "informationImportante": "Important Information",
+      "documentsValidite": "All documents must be valid and comply with consular requirements."
+    },
+    "mesDemandesClient": {
+      "title": "My Requests",
+      "description": "Find here the history and status of all your requests with the Chad Embassy.",
+      "filtrer": "FILTER BY",
+      "noTicket": "TICKET NO.",
+      "placeholderTicket": "Ex: T001",
+      "typeService": "SERVICE TYPE",
+      "statut": "STATUS",
+      "tous": "All",
+      "appliquer": "Apply",
+      "listeDemandes": "Request List"
+    },
+    "quickActions": {
+      "title": "Quick Services",
+      "description": "Quickly access all your consular request forms",
+      "nouvelleDemandeButton": "Make a New Request",
+      "modalTitle": "Choose the document to request",
+      "documents": {
+        "passeport": {
+          "label": "Passport",
+          "description": "Apply for a Chadian biometric passport"
+        },
+        "laissez-passer": {
+          "label": "Laissez-passer",
+          "description": "Get a laissez-passer to return to Chad"
+        },
+        "procuration": {
+          "label": "Power of Attorney",
+          "description": "Authorize someone for your procedures"
+        },
+        "carte-consulaire": {
+          "label": "Consular Card",
+          "description": "Register with the embassy"
+        },
+        "certificat-nationalite": {
+          "label": "Nationality Certificate",
+          "description": "Prove your Chadian nationality"
+        },
+        "visa": {
+          "label": "Visa",
+          "description": "Apply for a travel visa"
+        }
+      }
+    },
+    "header": {
+      "searchPlaceholder": "Search...",
+      "notifications": "Notifications",
+      "messages": "Messages",
+      "viewAllNotifications": "View all notifications",
+      "viewAllMessages": "View all messages"
+    },
+    "sidebar": {
+      "dashboard": "My Dashboard",
+      "nouvelleDemandeLabel": "Make A New Request",
+      "mesDemandes": "My Requests",
+      "monProfil": "My Profile",
+      "deconnexion": "Logout",
+      "embassyName": "Embassy of Chad"
+    },
+    "dashboard": {
+      "bonjour": "Hello",
+      "nomUtilisateur": "Tiene Ferand",
+      "etape": "Step",
+      "service": "Service",
+      "typeService": "Recovery",
+      "demande": "Request",
+      "typeDemande": "Visa",
+      "bienvenue": "Welcome to your personal space.",
+      "progression": "Progress",
+      "periodeDate": "From Jul 01 - Jul 31",
+      "achevementPrevu": "Expected completion",
+      "dateAchevement": "July 16, 2025",
+      "dureeJours": "14 Days",
+      "progressSteps": {
+        "processus": "Process",
+        "deTraitement": "of processing"
+      },
+      "requestsTable": {
+        "title": "My pending requests",
+        "ticketNumber": "TICKET N°",
+        "serviceConcerne": "RELATED SERVICE",
+        "dateSubmission": "SUBMISSION DATE",
+        "currentStatus": "CURRENT STATUS",
+        "action": "ACTION",
+        "voir": "View",
+        "ticket": "Ticket",
+        "date": "Date",
+        "voirToutesDemandes": "View All Requests",
+        "status": {
+          "nouveau": "New",
+          "enCours": "In Progress",
+          "enAttente": "Pending",
+          "pretARetirer": "Ready To Collect"
+        }
+      },
+      "newsCarousel": {
+        "title": "News"
+      },
+      "messages": {
+        "title": "Messages",
+        "modal": {
+          "title": "All messages",
+          "markAsRead": "Mark as read",
+          "markAsUnread": "Mark as unread",
+          "close": "Close",
+          "empty": "No messages",
+          "read": "Read",
+          "unread": "Unread",
+          "reply": "Reply"
+        }
+      }
+    },
+    "notifications": {
+      "title": "Notifications",
+      "listeAlertes": "List of latest alerts and important updates",
+      "statut": "Status",
+      "notification": "Notification",
+      "voirToutes": "View All Notifications",
+      "status": {
+        "enCours": "In Progress",
+        "En Cours": "In Progress",
+        "requis": "Required",
+        "Requis": "Required",
+        "pretARetirer": "Ready To Collect",
+        "Prêt À Retirer": "Ready To Collect"
+      },
+      "modal": {
+        "title": "All notifications",
+        "markAsRead": "Mark as read",
+        "markAsUnread": "Mark as unread",
+        "close": "Close",
+        "empty": "No notifications",
+        "read": "Read",
+        "unread": "Unread",
+        "all": "All"
+      }
+    },
+    "profil": {
+      "title": "My Profile",
+      "description": "Find here the history and status of all your requests with the Chad Embassy.",
+      "modifierCompte": "Edit account",
+      "modifierMotDePasse": "Change my password",
+      "supprimerCompte": "Delete my account",
+      "champsObligatoires": "Fields marked with * are required.",
+      "monIdentite": "My identity",
+      "nom": "Last Name",
+      "prenom": "First Name(s)",
+      "langueLabel": "Language in which you want to fill out your visa application",
+      "francais": "French",
+      "anglais": "English",
+      "arabe": "Arabic",
+      "enregistrer": "Save",
+      "mesDemandes": "My requests",
+      "voirProfil": "View profile",
+      "modifierProfil": "Edit profile",
+      "annuler": "Cancel",
+      "motDePasseActuel": "Current password",
+      "nouveauMotDePasse": "New password",
+      "confirmerMotDePasse": "Confirm new password"
     }
   }
 }
